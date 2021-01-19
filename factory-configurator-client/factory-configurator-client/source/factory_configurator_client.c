@@ -68,7 +68,7 @@ const char g_fcc_lwm2m_device_private_key_name[] = "mbed.LwM2MDevicePrivateKey";
 * Firmware update
 */
 const char g_fcc_update_authentication_certificate_name[] = "mbed.UpdateAuthCert";
-const char g_fcc_class_id_name[] = "mbed.ClassId";
+const char g_fcc_class_id_name[] = "example.ClassId";
 const char g_fcc_vendor_id_name[] = "mbed.VendorId";
 
 static bool g_is_fcc_initialized = false;

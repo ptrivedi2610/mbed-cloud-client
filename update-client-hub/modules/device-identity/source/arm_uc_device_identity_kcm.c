@@ -35,7 +35,7 @@
 #define KEY_DEVICE_MODELNUMBER_DEPRECATED       "mbed.ModelNumber"
 #define KEY_ENDPOINT_NAME                       "mbed.EndpointName"
 #define KEY_VENDOR_ID                           "mbed.VendorId"
-#define KEY_CLASS_ID                            "mbed.ClassId"
+#define KEY_CLASS_ID                            "example.ClassId"
 
 static arm_uc_error_t pal_kcm_internal_set_guid(const arm_uc_guid_t *guid,
                                                 const char *key,

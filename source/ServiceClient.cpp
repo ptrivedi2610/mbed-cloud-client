@@ -124,8 +124,8 @@ void ServiceClient::initialize_and_register(M2MBaseList& reg_objs)
                                       arm_uc_vendor_id_size);
 
             /* Delete ClassId */
-            ccs_delete_item("mbed.ClassId", CCS_CONFIG_ITEM);
-            /* Store Class Id to mbed.ClassId. No conversion is performed. */
+            ccs_delete_item("example.ClassId", CCS_CONFIG_ITEM);
+            /* Store Class Id to example.ClassId. No conversion is performed. */
             set_device_resource_value(M2MDevice::ModelNumber,
                                       (const char*) arm_uc_class_id,
                                       arm_uc_class_id_size);
